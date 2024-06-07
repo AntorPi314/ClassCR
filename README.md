@@ -19,6 +19,7 @@ Import Firebase backup .json file in the Root of the database
 Build APK
 Enjoy! 😄
 
+## Screenshot
 
 ![screenshot](https://github.com/AntorPi314/ClassCR/blob/main/.idea/Group_1.png)
 ![screenshot](https://github.com/AntorPi314/ClassCR/blob/main/.idea/Group_2.png)
