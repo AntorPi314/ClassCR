@@ -1,0 +1,233 @@
+{
+  "app": {
+    "update": {
+      "version": "1.0"
+    },
+    "update_info": {
+      "des": "a new version coming",
+      "link": "https://console.firebase.google.com/project/class-cr-00/database/class-cr-00-default-rtdb/data",
+      "title": "New Update Found"
+    }
+  },
+  "code": {
+    "test_key": {
+      "class": {
+        "data": {
+          "r0_t1": "08:30\n10:00",
+          "r0_t2": "10:00\n11:30",
+          "r0_t3": "11:30\n01:00",
+          "r0_t4": "01:00\n02:30",
+          "r0_t5": "02:30\n04:00",
+          "r0_t6": "04:00\n05:30",
+          "r1_t1": "",
+          "r1_t2": "",
+          "r1_t3": "",
+          "r1_t4": "",
+          "r1_t5": "",
+          "r1_t6": "",
+          "r1_t7": "",
+          "r2_t1": "",
+          "r2_t2": "",
+          "r2_t3": "",
+          "r2_t4": "",
+          "r2_t5": "",
+          "r2_t6": "",
+          "r3_t1": "",
+          "r3_t2": "",
+          "r3_t3": "MAT\n(2003)",
+          "r3_t4": "DLD\n(1705)",
+          "r3_t5": "CA\n(1404)",
+          "r3_t6": "DLD LAB \n(1506)",
+          "r4_t1": "",
+          "r4_t2": "",
+          "r4_t3": "ICT\n(301)",
+          "r4_t4": "DLD\n(2004)",
+          "r4_t5": "DLD LAB\n(1506)",
+          "r4_t6": "",
+          "r5_t1": "SAD\n(Online)",
+          "r5_t2": "SAD \n(Online)",
+          "r5_t3": "SAD lab \n(Online)",
+          "r5_t4": "SAD Lab\n(Online)",
+          "r5_t5": "",
+          "r5_t6": "",
+          "r6_t1": "CA\n(1503)",
+          "r6_t2": "MAT\n(1704)",
+          "r6_t3": "",
+          "r6_t4": "",
+          "r6_t5": "",
+          "r6_t6": "",
+          "r7_t1": "",
+          "r7_t2": "",
+          "r7_t3": "",
+          "r7_t4": "",
+          "r7_t5": "",
+          "r7_t6": ""
+        }
+      },
+      "class_csit": {
+        "data": {
+          "r0_t1": "09:00\n10:00",
+          "r0_t2": "10:00\n11:00",
+          "r0_t3": "11:00\n12:00",
+          "r0_t4": "12:00\n01:00",
+          "r0_t5": "02:00\n03:00",
+          "r0_t6": "03:00\n04:00",
+          "r1_t1": "",
+          "r1_t2": "",
+          "r1_t3": "",
+          "r1_t4": "C++ Lab (A)\n(1504)",
+          "r1_t5": "C++ LAB (A)\n(1504)",
+          "r1_t6": "",
+          "r1_t7": "",
+          "r2_t1": "C++ Lab (B)\n(1505)",
+          "r2_t2": "C++ Lab (B)\n(1505)",
+          "r2_t3": "Discrete Math\n(1504)",
+          "r2_t4": "DS\n(1504)",
+          "r2_t5": "DS Lab (A)\n(1504)",
+          "r2_t6": "DS Lab (A)\n(1504)",
+          "r3_t1": "DS\n(1107)",
+          "r3_t2": "",
+          "r3_t3": "Discrete Math\n(1501)",
+          "r3_t4": "C++\n(1105)",
+          "r4_t1": "DS Lab (B)\n(1505)",
+          "r4_t2": "DS Lab (B)\n(1505)",
+          "r4_t3": "C++\n(1504)",
+          "r5_t1": "BHC\n(Online)",
+          "r5_t2": "",
+          "r5_t3": "",
+          "r5_t4": "ECS\n(Online)",
+          "r6_t1": "",
+          "r6_t2": "",
+          "r6_t3": "",
+          "r6_t4": "",
+          "r6_t5": "",
+          "r6_t6": "",
+          "r7_t1": "",
+          "r7_t2": "",
+          "r7_t3": "",
+          "r7_t4": "",
+          "r7_t5": "",
+          "r7_t6": ""
+        }
+      },
+      "exam": {
+        "data": {
+          "ed1": "Saturday  \n27-04-24",
+          "ed2": "Monday \n29-04-24",
+          "ed3": "Thursday \n02-05-24",
+          "ed4": "Monday\n06-05-24",
+          "ed5": "Wednesday \n08-05-24",
+          "ed6": "Wed\n20-Dec-23",
+          "er0_t1": "10:00AM\n12:00AM",
+          "er0_t2": "09:00\n11:00",
+          "er0_t3": "01:00\n03:00",
+          "er1_t1": "Algorithm-2337 (R-1305)",
+          "er1_t2": "",
+          "er1_t3": "",
+          "er2_t1": "DBMS-3111\n(R-1704)",
+          "er2_t2": "",
+          "er2_t3": "",
+          "er3_t1": "EEE-2267\n(R-1702)",
+          "er3_t2": "",
+          "er4_t1": "",
+          "er4_t2": "EEE LAB 2268\n(R-1506)",
+          "er4_t3": "ADA LAB 2338  (1505)",
+          "er5_t1": "",
+          "er5_t2": "",
+          "er5_t3": "DBMS LAB 3112\n(R-1506)",
+          "er6_t1": "EEE Lab",
+          "er6_t2": ""
+        }
+      },
+      "link": {
+        "data": {
+          "L1": "https://smuct.pipilikasoft.com/",
+          "L1t": "Pipilika",
+          "L2": "https://drive.google.com/file/d/19DlPL7XW5-ky-JrnomOE1_Ja-wOTUib7/view?usp=sharing",
+          "L2t": "Class CR (App Link)",
+          "L3": "",
+          "L3t": "",
+          "L4": "",
+          "L4t": "",
+          "L5": "",
+          "L5t": "",
+          "L6": "",
+          "L6t": "",
+          "L7": "",
+          "L7t": "",
+          "L8": "",
+          "L8t": "",
+          "L9": "",
+          "L9t": ""
+        }
+      },
+      "notify": {
+        "data": {
+          "167976745988649760": {
+            "a": "ghh",
+            "b": "hjkkk"
+          },
+          "a": "Google Classroom Codes",
+          "b": "System Analysis and Design: rzyd4ss\n\nSystem Analysis and Design Lab: 4z5zvxl\n\nnumerical methods: 2yr7hlt\n\nDigital Logic and Design : gj2lxh4\n\nProject 2 : 5neioz5\n\nComputer Architecture : qhj6hq2\n\n\nAdvisor classroom : ji5az7xv"
+        }
+      },
+      "post": {
+        "data": {
+          "167976708054042208": {
+            "a": "Google Classroom Codes",
+            "b": "System Analysis and Design: rzyd4ss\n\nSystem Analysis and Design Lab: 4z5zvxl\n\nnumerical methods: 2yr7hlt\n\nDigital Logic and Design : gj2lxh4\n\nProject 2 : 5neioz5\n\nComputer Architecture : qhj6hq2\n\n\nAdvisor classroom : ji5az7xv",
+            "d": "167976708054042208"
+          },
+          "167976708870789728": {
+            "a": "System Analysis and Design (Zoom)",
+            "b": "Zoom Id: 7582638282 \n\nPassword: 333999",
+            "d": "167976708870789728"
+          },
+          "167976708980918240": {
+            "a": "All Courses",
+            "b": "CSE-2277\tDigital Logic Design [A]\r\nCSE-2278\tDigital Logic Design Lab [A]\n\r\nCSE-2339\tNumerical Methods [A]\n\r\nCSE-2361\tSystem Analysis and Design\r\nCSE-2362\tSystem Analysis and Design Lab\n\r\nCSE-2367\tComputer Architecture\n\r\nICT-3204\tProject II",
+            "d": "167976708980918240"
+          },
+          "167976709079629376": {
+            "a": "Academic Calendar",
+            "b": "https://shorturl.at/TIJb2",
+            "d": "167976709079629376"
+          },
+          "167976709405933824": {
+            "a": "Whatsapp Group Link",
+            "b": "Project II : https://chat.whatsapp.com/GcInFUkVwCX7Ap6VVvfdME",
+            "d": "167976709405933824"
+          },
+          "167976709406214912": {
+            "a": "Messenger Group Link",
+            "b": "DLD: https://m.me/j/AbYnpTnIgp4evZmX/\n\nCA: https://m.me/j/AbYBDhB9582a27cr/\n\nSAD: https://m.me/j/AbbJFqYA00-UHkew/",
+            "d": "167976709406214912"
+          },
+          "167976745944282080": {
+            "a": "Notice",
+            "b": "Hello Everyone,\n\nApp Feature:\n* All type of routine (Class, Exam)\n* Easy Announcement\n* Link Share\n* Add new bug to fix later 😪\n\n\nঅ্যাপটিতে আমি আপনাদের ভালো\nকিছু দেওয়ার চেষ্টা করেছি, যদি অ্যাপটিতে\nকোনো Bug থেকে থাকে তাহলে আমাকে \nঅবশ্যই জানাবেন...😇\n\nAntor",
+            "d": "167976745944282080"
+          }
+        }
+      },
+      "setting": {
+        "data": {
+          "c_row": "6",
+          "class": "1",
+          "e_col": "5",
+          "e_row": "3",
+          "exam": "0"
+        }
+      },
+      "update": {
+        "class": "1717506024602",
+        "class_csit": "854636",
+        "exam": "1714960718461",
+        "link": "5543345",
+        "notify": "167976708054042208",
+        "post": "1717753779110",
+        "setting": "1717502888806"
+      }
+    }
+  }
+}
