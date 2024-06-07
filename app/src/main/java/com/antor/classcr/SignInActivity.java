@@ -96,7 +96,7 @@ public class SignInActivity extends AppCompatActivity {
 		button1.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
-				if ("myname.admin".equals(edittext1.getText().toString().trim())) {
+				if ("yourname.admin".equals(edittext1.getText().toString().trim())) {
 					data.edit().putString("admin", "cr").commit();
 					in.setClass(getApplicationContext(), MainActivity.class);
 					startActivity(in);
