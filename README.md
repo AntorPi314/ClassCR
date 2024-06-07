@@ -11,7 +11,7 @@ Change your Firebase information here:
 
 Change your local CR Code here: (at 99 line)
 "ClassCR\app\src\main\java\com\antor\classcr\SignInActivity.java"
-Submit this CR Code to Edit and Post anything you want
+Submit CR Code to Edit and Post anything you want.
 Default CR Code "yourname.admin"
 
 Import the Firebase_Backup .json file in the Root of the database
