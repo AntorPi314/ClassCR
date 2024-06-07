@@ -1,0 +1,180 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear00"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#201A30"
+		android:gravity="center_horizontal|top"
+		android:orientation="vertical">
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:gravity="center_horizontal|top"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear8"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="8dp"
+					android:gravity="left|center_vertical"
+					android:orientation="horizontal">
+					<ImageView
+						android:id="@+id/imageview3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="10dp"
+						android:src="@drawable/ic_arrow_back_white"
+						android:scaleType="center" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="8dp"
+						android:paddingTop="8dp"
+						android:paddingRight="8dp"
+						android:text="Create Code"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF" />
+					<TextView
+						android:id="@+id/textview2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="Please fill the captcha to get code"
+						android:textSize="14sp"
+						android:textColor="#908D98" />
+					<LinearLayout
+						android:id="@+id/linear7"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="center_horizontal|center_vertical"
+						android:orientation="horizontal">
+						<LinearLayout
+							android:id="@+id/linear6"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:background="#FFFFFF"
+							android:gravity="center_horizontal|center_vertical"
+							android:orientation="horizontal">
+							<TextView
+								android:id="@+id/text1"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="F"
+								android:textSize="25sp"
+								android:textStyle="bold"
+								android:textColor="#616161"
+								android:rotation="330" />
+							<TextView
+								android:id="@+id/text2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="F"
+								android:textSize="25sp"
+								android:textStyle="bold"
+								android:textColor="#616161"
+								android:rotation="10" />
+							<TextView
+								android:id="@+id/text3"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="F"
+								android:textSize="25sp"
+								android:textStyle="bold"
+								android:textColor="#616161"
+								android:rotation="25" />
+							<TextView
+								android:id="@+id/text4"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="F"
+								android:textSize="25sp"
+								android:textStyle="bold"
+								android:textColor="#616161"
+								android:rotation="315" />
+							<TextView
+								android:id="@+id/text5"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="F"
+								android:textSize="25sp"
+								android:textStyle="bold"
+								android:textColor="#616161"
+								android:rotation="18" />
+							<TextView
+								android:id="@+id/text6"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="F"
+								android:textSize="25sp"
+								android:textStyle="bold"
+								android:textColor="#616161"
+								android:rotation="326" />
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="16dp"
+						android:layout_marginBottom="8dp"
+						android:padding="8dp"
+						android:background="#38304C"
+						android:gravity="left|center_vertical"
+						android:orientation="horizontal">
+						<EditText
+							android:id="@+id/edittext1"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:background="#38304C"
+							android:textSize="16sp"
+							android:textColor="#FFFFFF"
+							android:hint="Enter Captcha"
+							android:textColorHint="#C4C2CA"
+							android:singleLine="true" />
+					</LinearLayout>
+				</LinearLayout>
+				<Button
+					android:id="@+id/button1"
+					android:layout_width="200dp"
+					android:layout_height="60dp"
+					android:layout_marginTop="16dp"
+					android:padding="8dp"
+					android:background="#0DF5E3"
+					android:text="GET CODE"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#201A30" />
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

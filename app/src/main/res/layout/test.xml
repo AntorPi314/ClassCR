@@ -1,0 +1,31 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear_link"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="30dp"
+		android:background="#152232"
+		android:orientation="horizontal">
+		<HorizontalScrollView
+			android:id="@+id/hscroll2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<LinearLayout
+				android:id="@+id/linear_link2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:paddingTop="10dp"
+				android:paddingRight="8dp"
+				android:paddingBottom="10dp"
+				android:background="#101825"
+				android:orientation="horizontal" />
+		</HorizontalScrollView>
+	</LinearLayout>
+</LinearLayout>
