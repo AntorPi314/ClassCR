@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Routine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #152232;
+            color: #009788;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+			font-size: 12px;
+        }
+
+        .table-container {
+            width: 100%;
+            overflow-x: auto; /* Enable horizontal scrolling */
+            -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            min-width: 600px; /* Ensure a minimum width for the table */
+            background-color: #101825;
+            text-align: center;
+        }
+
+        th, td {
+		    width: 100px;
+            border: 3px solid #152232;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #101825;
+            color: #ffcc00;
+			white-space: pre-wrap;
+            word-wrap: break-word;
+            width: 100px;
+            text-align: center;
+			font-weight: bold;
+        }
+
+        td {
+            white-space: pre-wrap;
+			font-weight: bold;
+        }
+
+        .highlight {
+            background-color: #228b22;
+        }
+
+        .online {
+            background-color: #6a0dad;
+            color: #fff;
+        }
+
+        .empty {
+            background-color: #2a2a2a;
+        }
+
+        .current-week {
+            background-color: #4530B3 !important;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th id="r0_t1"></th>
+                    <th id="r0_t2"></th>
+                    <th id="r0_t3"></th>
+                    <th id="r0_t4"></th>
+                    <th id="r0_t5"></th>
+                    <th id="r0_t6"></th>
+                    <th id="r0_t7"></th>
+                    <th id="r0_t8"></th>
+                    <th id="r0_t9"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="sat"><td>Sat</td></tr>
+                <tr id="sun"><td>Sun</td></tr>
+                <tr id="mon"><td>Mon</td></tr>
+                <tr id="tue"><td>Tue</td></tr>
+                <tr id="wed"><td>Wed</td></tr>
+                <tr id="thu"><td>Thu</td></tr>
+                <tr id="fri"><td>Fri</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        const jsonURL = "https://class-cr-c2bee-default-rtdb.firebaseio.com/code/test_key/class/data.json";
+		classRow = "https://class-cr-c2bee-default-rtdb.firebaseio.com/code/test_key/setting/data/c_row.json"
+
+        // Highlight current week name and row
+        const today = new Date();
+        const currentDayIndex = today.getDay(); // Get day index (0 for Sunday, 6 for Saturday)
+        const days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+
+        // Get current week's name ID and add a class for styling
+        const currentDayId = days[currentDayIndex];
+        const currentRow = document.getElementById(currentDayId);
+        if (currentRow) {
+            currentRow.classList.add("current-week");
+        }
+		
+fetch(classRow)
+  .then(response => response.json())
+  .then(data => {
+    let classRow = data;
+		
+        fetch(jsonURL)
+            .then(response => response.json())
+            .then(data => {
+			
+for (let i = 1; i <= 9; i++) {
+    const element = document.getElementById(`r0_t${i}`);
+    if (element) {
+        element.style.display = "none"; 
+    }
+}
+			
+            for (let i = 1; i <= classRow; i++) {
+			    document.getElementById(`r0_t${i}`).style.display = "table-cell";
+			    document.getElementById(`r0_t${i}`).textContent = data[`r0_t${i}`] || "";
+            }
+			
+                for (let row = 1; row <= 7; row++) {
+                    const tableRow = document.getElementById(getDay(row));
+
+                    for (let col = 1; col <= classRow; col++) { // Change loop to 9 columns
+                        const cellId = `r${row - 0}_t${col}`;
+                        const cellData = data[cellId] || "";
+
+                        const td = document.createElement("td");
+
+
+                        td.textContent = cellData;
+                        tableRow.appendChild(td);
+                    }
+                }
+            })
+            .catch(error => console.error("Error loading data:", error));
+			
+  })
+  .catch(error => console.error("Error fetching data:", error));
+
+        function getDay(row) {
+            const days = ["sat", "sun", "mon", "tue", "wed", "thu", "fri"];
+            return days[row - 1];
+        }
+    </script>
+</body>
+</html>
