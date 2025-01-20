@@ -1,4 +1,5 @@
 # ClassCR
+https://antorpi314.github.io/ClassCR/
 
 ## Feature
 1. Routine (Class & Exam)
